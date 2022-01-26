@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+.wrap {
+    flex-wrap: wrap;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.a-center {
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.d-flex {
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.loginWrapper {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.j-center {
+    justify-content: center;
+}
+.login {
+    width: 200px;
+    height: 250px;
+    border: 3px solid black;
+    margin: 30px;
+    border-radius: 1rem;
+    background-color: crimson;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.spa {
+    justify-content: space-around;
 }
+
+.column {
+    flex-direction: column;
+}
+.post {
+    width: 300px;
+    height: 300px;
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+    margin: 10px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 0.5rem;
+    background: rgb(182,147,30);
+    background: radial-gradient(circle, rgba(182,147,30,1) 0%, rgb(77, 75, 255) 100%);
+}
+
+.numbers button {
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 0.5rem;
+}
+
+.toolbar {
+    width: 100vw;
+    height: auto;
+    border-bottom: 7px solid rgba(66, 3, 3, 0.94);
+    display: flex;
+}
+
+.spb {
+    justify-content: space-between;
+}
+
+.createPost {
+    width: 200px;
+    height: 250px;
+    border: 3px solid black;
+    margin: 30px;
+    border-radius: 1rem;
+    background-color: crimson;
+}
+
+input {
+    border-radius: 0.35rem;
+}
+
+input:hover {
+    background-color: lightblue;
+}
+
+.createPostWrapper {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.p20 {
+    padding: 20px;
+}
+.p10 {
+    padding: 10px;
+}
+
+.mg10 {
+    margin: 10px;
+}
+
+button {
+    width: 200px;
+    border-radius: 0.5rem;
+    font-size: larger;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(79,45,253,1) 100%);
+}
+
+/*.createPostButton {*/
+/*    border-bottom: 3px solid #6b0118;*/
+/*}*/
+
+.register {
+    width: 200px;
+    height: 250px;
+    border: 3px solid black;
+    margin: 30px;
+    border-radius: 1rem;
+    background-color: crimson;
+}
+.registerWrapper {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.postWrapper {*/
+/*    display: flex;*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
